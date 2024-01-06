@@ -184,7 +184,7 @@ button {
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0;
+  grid-column-gap: 20px;
   grid-row-gap: 22px;
 }
 .cards__wrapper::after {
@@ -239,12 +239,12 @@ button {
 }
 
 .footer__text {
-  color: var(--Secondary-color, #6c757d);
+  color: #6c757d;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px; /* 131.25% */
   text-align: center;
-  padding-top: 70px;
+  padding-top: 64px;
 }/*# sourceMappingURL=index.css.map */
