@@ -9199,9 +9199,12 @@ const containerNode = document.querySelector(".container");
 const createCards = ({ title, symbol, keywords }) => {
   const cardNode = document.createElement("div");
   cardNode.className = "card";
-  cardNode.innerHTML = `<h3 class = "card__picture"> ${symbol}</h3>
-                        <p class = "card__article>${title}</p>
-                        <p class = "card__text>${keywords} </p>`;
+  cardNode.innerHTML = `
+                        <text class = "card__picture"> ${symbol}</text>
+                        <p class = "card__article">${title}</p>
+                        <p class = "card__text">${keywords} </p>
+                        `;
+
   return cardNode;
 };
 
