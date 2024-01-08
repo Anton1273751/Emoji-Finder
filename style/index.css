@@ -203,10 +203,9 @@ button {
   background: #fff;
 }
 .card__picture {
-  width: 48px;
-  height: 48px;
   color: var(--Body-Text-Base-Color, #68717a);
   font-family: Inter;
+  margin: 0 auto;
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
